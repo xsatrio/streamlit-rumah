@@ -217,6 +217,5 @@ print('akurasi model regresi linier = ', score*100,"%")
 
 ## Deployment
 
-pada bagian ini anda memberikan link project yang diupload melalui streamlit share. boleh ditambahkan screen shoot halaman webnya.
-
-**---Ini adalah bagian akhir laporan---**
+Berikut link menuju app [Estimasi Rumah Di india](https://app-estimasi-rumah-india-to-indonesia-xsat.streamlit.app/)
+![Alt text](deploy-app.png)
