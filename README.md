@@ -34,7 +34,7 @@ Data yang digunakan dalam proyek ini berasal dari sumber [kaggle](https://www.ka
 
 [Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset/).
 
-### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
+### Variabel-variabel pada Dataset ini adalah sebagai berikut:
 
 - price : Harga rumah dalam mata uang India (INR).
 - area : Luas rumah dalam persegi kaki.
