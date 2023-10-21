@@ -73,4 +73,4 @@ if st.button('Estimasi Harga'):
         [[area, bedrooms, bathrooms, stories, mainroad, guestroom, basement, hotwaterheating, airconditioning, parking, prefarea, furnishingstatus]]
     )
     st.write('estimasi harga rumah dalam INR : ', predict)
-    st.write('estimasi harga rumah dalam INR : ', predict * 190,75)
+    st.write('estimasi harga rumah dalam IDR : ', predict * 190,75)
