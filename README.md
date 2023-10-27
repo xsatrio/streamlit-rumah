@@ -36,24 +36,24 @@ Data yang digunakan dalam proyek ini berasal dari sumber [kaggle](https://www.ka
 
 ### Variabel-variabel pada Dataset ini adalah sebagai berikut:
 
-- price : Harga rumah dalam mata uang India (INR).
-- area : Luas rumah dalam persegi kaki.
-- bedrooms : Jumlah kamar tidur.
-- bathrooms : Jumlah kamar mandi.
-- stories : Jumlah lantai rumah.
-- mainroad : Apakah rumah terletak di dekat jalan utama.
-- guestroom : Apakah rumah memiliki kamar tamu.
-- basement : Apakah rumah memiliki ruang bawah tanah.
-- hotwaterheating : Apakah rumah memiliki pemanas air.
-- airconditioning : Apakah rumah memiliki AC.
-- parking : Jumlah tempat parkir yang tersedia.
-- prefarea : Apakah rumah terletak di area pilihan.
-- furnishingstatus : Status furnishing rumah.
+- price : Harga rumah dalam mata uang India (INR). (int64)
+- area : Luas rumah dalam persegi kaki. (int64)
+- bedrooms : Jumlah kamar tidur. (int64)
+- bathrooms : Jumlah kamar mandi. (int64)
+- stories : Jumlah lantai rumah. (int64)
+- mainroad : Apakah rumah terletak di dekat jalan utama. (object)
+- guestroom : Apakah rumah memiliki kamar tamu. (object)
+- basement : Apakah rumah memiliki ruang bawah tanah. (object)
+- hotwaterheating : Apakah rumah memiliki pemanas air. (object)
+- airconditioning : Apakah rumah memiliki AC. (object)
+- parking : Jumlah tempat parkir yang tersedia. (int64)
+- prefarea : Apakah rumah terletak di area pilihan. (object)
+- furnishingstatus : Status furnishing rumah. (object)
 
 ## Data Preparation
 
 Dataset "Housing Price Dataset" didapat dari website [kaggle](https://www.kaggle.com/)
-Pertama kali saya akan menggunakan EDA, dengan menggunakan beberapa library, pertama saya akan import beberapa library yang akan dipakai :
+Pertama kali saya akan membuat EDA, dengan menggunakan beberapa library, pertama saya akan import beberapa library yang akan dipakai :
 
 ```bash
 import pandas as pd
