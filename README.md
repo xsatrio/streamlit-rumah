@@ -53,7 +53,32 @@ Data yang digunakan dalam proyek ini berasal dari sumber [kaggle](https://www.ka
 ## Data Preparation
 
 Dataset "Housing Price Dataset" didapat dari website [kaggle](https://www.kaggle.com/)
-Pertama kali saya akan membuat EDA, dengan menggunakan beberapa library, pertama saya akan import beberapa library yang akan dipakai :
+
+disini saya akan mengkoneksikan google colab ke kaggle menggunakan token dari akun saya :
+```bash
+from google.colab import files
+files.upload()
+```
+
+disni saya akan membuat direktori untuk menyimpan file kaggle.json
+```bash
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+!ls ~/.kaggle
+```
+
+saya akan mendownload file datasetnya dari kaggle :
+```bash
+!kaggle datasets download -d yasserh/housing-prices-dataset
+```
+
+disini saya mengekstrak file dari dataset yang sudah saya download :
+```bash
+!unzip housing-prices-dataset.zip
+```
+
+lalu saya akan membuat EDA, dengan menggunakan beberapa library, pertama saya akan import beberapa library yang akan dipakai :
 
 ```bash
 import pandas as pd
